@@ -1,0 +1,42 @@
+/* Write your CSS here */
+
+.list-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.image {
+  width: 100%;
+}
+
+.img-heading {
+  color: #0f172a;
+  font-family: 'Open Sans';
+  font-size: 22px;
+  align-self: flex-start;
+  margin-bottom: 40px;
+}
+
+@media screen and (min-width: 768px) {
+  .list-card {
+    width: 40%;
+  }
+
+  .image {
+    width: 100%;
+  }
+
+  .img-heading {
+    font-size: 22px;
+    margin-bottom: 50px;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  .list-card {
+    width: 22%;
+  }
+}
