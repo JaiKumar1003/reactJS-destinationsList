@@ -17,7 +17,7 @@ class DestinationSearch extends Component {
     const {destinationsList} = this.props
     const {searchInput} = this.state
     const searchResult = destinationsList.filter(eachObject =>
-      eachObject.name.toLowerCase().includes(searchInput),
+      eachObject.name.toLowerCase().includes(searchInput.toLowerCase()),
     )
 
     return (
